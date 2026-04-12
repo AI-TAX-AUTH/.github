@@ -1,0 +1,16 @@
+{
+  "last_updated": "2026-04-12",
+  "audit_reason": "Violation of $IDen Sovereign Threshold (< 9,999)",
+  "restricted_entities": [
+    {
+      "address": "0xDEADC0DE...f41a",
+      "violation": "L1_Identity_Failure",
+      "total_seized": "142.67 $IDen"
+    },
+    {
+      "address": "0xBAAAAAAD...e22b",
+      "violation": "Persistent_Tax_Evasion",
+      "total_seized": "890.12 $IDen"
+    }
+  ]
+}
