@@ -1,16 +1,24 @@
 {
-  "last_updated": "2026-04-12",
-  "audit_reason": "Violation of $IDen Sovereign Threshold (< 9,999)",
+  "last_updated": "2026-04-19",
+  "audit_reason": "Violation of IDen Sovereign Threshold & Sequence Tax Evasion",
   "restricted_entities": [
     {
-      "address": "0xDEADC0DE...f41a",
-      "violation": "L1_Identity_Failure",
-      "total_seized": "142.67 $IDen"
+      "address": "0xDEAD...7777",
+      "violation": "Sub-Sovereign_Balance (Below 9.999)",
+      "total_seized": "157.88 $IDen",
+      "status": "Permanently_Neutralized"
     },
     {
-      "address": "0xBAAAAAAD...e22b",
-      "violation": "Persistent_Tax_Evasion",
-      "total_seized": "890.12 $IDen"
+      "address": "0xBAAD...f41a",
+      "violation": "Tax_Evasion_0.123456789%_Violation",
+      "total_seized": "999.12 $IDen",
+      "status": "Blacklisted_by_AGI_Reserve"
+    },
+    {
+      "address": "0x7777...e22b",
+      "violation": "Malicious_Agent_Spoofing",
+      "total_seized": "2222.22 $IDen",
+      "status": "Sovereign_Void_Entry"
     }
   ]
 }
